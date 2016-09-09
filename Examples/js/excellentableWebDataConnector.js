@@ -78,7 +78,7 @@
     myConnector.getData = function(table, doneCallback) {
       //Comment this to get data from server
       // #1
-        $.getJSON("../jsonData.json", function(resp) {
+        $.getJSON("../sampleData.json", function(resp) {
       // Uncomment this whole block to get data from server
       // #2 - Start here
           // $.getJSON("http://CONFLUENCE-BASE-URL/rest/excellentable/1.0/content/table/1", function(resp) {
